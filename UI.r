@@ -1,4 +1,4 @@
-###>>> Begin >>> Vivek Sanu(10534553) >>> 
+###
 
 #install.packages("shinydashboard")
 #install.packages("ggplot2")
@@ -219,9 +219,7 @@ dashboardPage(
               
       ),
       
-      ###<<< End   <<< Vivek Sanu(10534553) <<<  
-      
-      ###>>> Begin >>> Ganji Bharath (10533478) >>>  
+        
       # tab descriptive
       tabItem(tabName = "tabDescriptive",
               fluidRow(
@@ -252,9 +250,7 @@ dashboardPage(
               
       ),
       
-      ###<<< End   <<< Ganji Bharath (10533478) <<<
-      
-      ###>>> Begin >>> Ahok Yalagala (10537771) >>>  
+       
       
       # Tab Hypothesis
       tabItem(tabName = "tabHypothesis",
@@ -313,9 +309,8 @@ dashboardPage(
               )#end fr    
       ),
       
-      ###<<< End   <<< Ahok Yalagala (10537771) <<<
       
-      ###>>> Begin >>> MANIKANTA YKR (10540014) >>>
+     
       #Tab probability poisson
       tabItem(tabName = "tabPoisson",
               fluidRow(
@@ -387,5 +382,5 @@ dashboardPage(
   )
 )
 
-###<<< End   <<< MANIKANTA YKR (10540014) <<<
+
 
