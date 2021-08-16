@@ -1,4 +1,4 @@
-###>>> Begin >>> Vivek Sanu(10534553) >>>
+###
 
 (function(input, output,session) {
   
@@ -199,9 +199,9 @@
     })  
   })
   
-  ###<<< End   <<< Vivek Sanu(10534553) <<<
+ 
   
-  ###>>> Begin >>> Ganji Bharath (10533478) >>>  
+   
   #descriptive stats
   csvDataDes <- reactive({  #reactive event to store csv file data
     csvFileDes <- input$fileFileDes 
@@ -241,10 +241,6 @@
       }
     })  
   })
-  
-  ###<<< End   <<< Ganji Bharath (10533478) <<<
-  
-  ###>>> Begin >>> Ahok Yalagala (10537771) >>>
   
   #####hypothesis mean
   observeEvent(input$buttonGoHypo, {#triggers when go is clicked
@@ -328,9 +324,7 @@
     })  
   })
   
-  ###<<< End   <<< Ahok Yalagala (10537771) <<< 
-  
-  ###>>> Begin >>> MANIKANTA YKR (10540014) >>>   
+    
   #poisson model
   observeEvent(input$buttonGoPos, {#triggers when go is clicked
     count=input$sliderPos
@@ -380,4 +374,4 @@
   
 })
 
-###<<< End   <<< MANIKANTA YKR (10540014) <<<
+
